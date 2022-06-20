@@ -1,0 +1,34 @@
+.thumbs {
+    width: 100%;
+}
+.videoinfogrid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.videotitle {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.videoauthor, .videostats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+.videoauthor {
+  margin-bottom: 4px;
+}
+.profilepic {
+  width: 45px;
+  border-radius: 50%;
+}
+.thumbrow {
+  margin-bottom: 10px;
+}
+.videogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
