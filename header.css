@@ -29,6 +29,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(228, 228, 228 );
+    z-index: 100;
 }
 .leftsec {
     display: flex;
@@ -92,6 +93,20 @@
 }
 .notificon {
     height: 24px;
+}
+.notifcont {
+    position: relative;
+}
+.notifcount {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    background-color: red;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 9px;
+    padding: 1px 4px;
+    border-radius: 50%;
 }
 .usericon {
     height: 32px;
