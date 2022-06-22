@@ -56,9 +56,11 @@
     height: 25px;
     margin-left: 24px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .youtubelogo {
     height: 25px;
+    cursor: pointer;
 }
 .searchbut {
     height: 40px;
@@ -70,6 +72,37 @@
     margin-left: -1px;
     margin-right: 10px;
 }
+.searchbut, .voicebut, .uploadicon-cont, .appsicon-cont,.notifcont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbut .tooltip,
+.voicebut .tooltip,
+.uploadicon-cont .tooltip,
+.appsicon-cont .tooltip,
+.notifcont .tooltip{
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.searchbut:hover .tooltip,
+.voicebut:hover .tooltip,
+.uploadicon-cont:hover .tooltip,
+.appsicon-cont:hover .tooltip,
+.notifcont:hover .tooltip {
+    opacity: 1;
+}
 .voicebut {
     height: 40px;
     width: 40px;
@@ -79,20 +112,23 @@
 }
 .searchicon {
     height: 25px;
-    margin-top: 4px;
+    cursor: pointer;
 }
 .voiceicon {
     height: 24px;
-    margin-top: 4px;
+    cursor: pointer;
 }
 .uploadicon {
     height: 24px;
+    cursor: pointer;
 }
 .appsicon {
     height: 24px;
+    cursor: pointer;
 }
 .notificon {
     height: 24px;
+    cursor: pointer;
 }
 .notifcont {
     position: relative;
@@ -111,4 +147,5 @@
 .usericon {
     height: 32px;
     border-radius: 16px;
+    cursor: pointer;
 }

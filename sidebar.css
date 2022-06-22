@@ -2,7 +2,30 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    top: 55px;
+    top: 45px;
     background-color: white;
     width: 72px;
+    padding-top: 5px;
+    z-index: 999;
+}
+.sidebarlink {
+    height: 74px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebarlink:hover{
+    background-color: rgb(235, 235, 235);
+
+}
+.sidebarlink img {
+    height: 25px;
+    margin-bottom: 4px;
+}
+.sidebarlink div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
 }
