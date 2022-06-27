@@ -33,6 +33,21 @@
   column-gap: 15px;
   row-gap: 40px;
 }
+@media (max-width:850px) {
+  .videogrid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .videogrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width:751px) and (max-width:1199px) {
+  .videogrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .videotime {
   font-family: roboto, Arial;
   font-size: 12px;
